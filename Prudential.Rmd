@@ -1,0 +1,20 @@
+---
+title: "Expedia"
+author: "Shane Huang"
+date: "9/1/2020"
+output: html_document
+---
+
+```{r}
+# Libraries
+library(tidyverse)
+
+```
+
+
+```{r}
+train <- read_csv("train.csv")
+test <- read_csv("test.csv")
+dest <- read_csv("destinations.csv")
+```
+
