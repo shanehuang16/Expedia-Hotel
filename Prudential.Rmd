@@ -18,6 +18,23 @@ test <- read_csv("test.csv")
 
 ```{r}
 # Shane
+
+# Summary
+summary(train)
+glimpse(train)
+
+# Missing values
+sum(is.na(train))
+
+# Distributions
+hist(train$InsuredInfo_3)
+table(train$Product_Info_2)
+hist(train$Ins_Age)
+hist(train$Ht)
+
+# Data Cleaning
+train <- train %>% mutate(Product_Info_2 = factor(Product_Info_2))
+test <- test %>% mutate(Product_Info_2 = factor(Product_Info_2))
 ```
 
 ```{r}
