@@ -1,2 +1,2 @@
-# Expedia-Hotel
-Kaggle Competition: Expedia Hotel Recommendations
+# Prudential-Life-Insurance
+Kaggle Competition: Prudential Life Insurance Assessment
